@@ -490,12 +490,10 @@
     font-weight: 300;
   }
   .landing-page-container5 {
+    top: 120;
     width: 263px;
-    bottom: 100px;
-    height: 200px;
-    position: absolute;
+    position: relative;
     margin-bottom: var(--dl-space-space-unit);
-    padding-bottom: 0px;
   }
   .landing-page-text09 {
     color: rgb(255, 255, 255);

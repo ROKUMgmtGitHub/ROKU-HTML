@@ -490,9 +490,9 @@
     font-weight: 300;
   }
   .landing-page-container5 {
-    top: 120;
     width: 263px;
-    position: relative;
+    bottom: 120;
+    position: fixed;
     margin-bottom: var(--dl-space-space-unit);
   }
   .landing-page-text09 {

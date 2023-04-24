@@ -493,7 +493,7 @@
     width: 263px;
     bottom: 100px;
     height: 200px;
-    position: fixed;
+    position: absolute;
     margin-bottom: var(--dl-space-space-unit);
     padding-bottom: 0px;
   }

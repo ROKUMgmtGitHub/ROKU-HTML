@@ -135,6 +135,7 @@
   display: none;
 }
 .landing-page-icon {
+  fill: #FFFFFF;
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   display: none;
@@ -537,9 +538,6 @@
     align-items: center;
     justify-content: center;
   }
-  .landing-page-icon {
-    fill: #FFFFFF;
-  }
   .landing-page-hero {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -587,7 +585,7 @@
     width: 100;
   }
   .landing-page-icon {
-    fill: #FFFFFF;
+    display: flex;
   }
   .landing-page-mobile-menu {
     display: none;

@@ -737,12 +737,16 @@
     padding-bottom: var(--dl-space-space-threeunits);
   }
   .landing-page-text42 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
     font-style: normal;
-    font-weight: 400;
+    font-family: Cherolina;
+    font-weight: 100;
   }
   .landing-page-text43 {
     font-size: 24px;
     font-style: normal;
+    font-family: Inter;
     font-weight: 100;
   }
   .landing-page-button3 {

@@ -321,9 +321,7 @@
 .landing-page-text14 {
   color: #FFFFFF;
   margin-top: 5%;
-  background-image: linear-gradient(90deg, rgb(254, 144, 96) 0.00%,rgb(242, 164, 130) 19.00%,rgb(254, 191, 164) 39.00%,rgb(254, 191, 164) 60.00%,rgb(242, 164, 130) 81.00%,rgb(254, 144, 96) 100.00%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 300;
 }
 .landing-page-image4 {
   width: 450px;
@@ -337,9 +335,7 @@
 .landing-page-text17 {
   color: #FFFFFF;
   margin-top: 5%;
-  background-image: linear-gradient(90deg, rgb(254, 144, 96) 0.00%,rgb(242, 164, 130) 19.00%,rgb(254, 191, 164) 39.00%,rgb(254, 191, 164) 60.00%,rgb(242, 164, 130) 81.00%,rgb(254, 144, 96) 100.00%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 300;
 }
 .landing-page-image5 {
   width: 450px;
@@ -353,9 +349,7 @@
 .landing-page-text20 {
   color: #FFFFFF;
   margin-top: 5%;
-  background-image: linear-gradient(90deg, rgb(254, 144, 96) 0.00%,rgb(242, 164, 130) 19.00%,rgb(254, 191, 164) 39.00%,rgb(254, 191, 164) 60.00%,rgb(242, 164, 130) 81.00%,rgb(254, 144, 96) 100.00%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 300;
 }
 .landing-page-image6 {
   width: 450px;
@@ -370,8 +364,8 @@
 .landing-page-text23 {
   color: #FFFFFF;
   margin-top: 5%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 100;
 }
 @media(max-width: 1600px) {
   .landing-page-container1 {
@@ -611,25 +605,13 @@
     font-weight: 300;
     background-image: linear-gradient(90deg, rgb(254, 144, 96) 0%, rgb(242, 164, 130) 19%, rgb(254, 191, 164) 39%, rgb(254, 191, 164) 60%, rgb(242, 164, 130) 81%, rgb(254, 144, 96) 100%);
   }
-  .landing-page-text14 {
-    font-style: normal;
-    font-weight: 300;
-  }
   .landing-page-image4 {
     width: 100px;
     height: 100px;
   }
-  .landing-page-text17 {
-    font-style: normal;
-    font-weight: 300;
-  }
   .landing-page-image5 {
     width: 100px;
     height: 100px;
-  }
-  .landing-page-text20 {
-    font-style: normal;
-    font-weight: 300;
   }
   .landing-page-image6 {
     width: 100px;
@@ -638,31 +620,24 @@
   .landing-page-text23 {
     color: rgb(255, 255, 255);
     align-self: center;
-    text-align: center;
     font-weight: 100;
   }
   .landing-page-text24 {
-    color: #ffffff;
     font-style: normal;
   }
   .landing-page-text25 {
-    color: #ffffff;
     font-style: normal;
   }
   .landing-page-text26 {
-    color: #ffffff;
     font-style: normal;
   }
   .landing-page-text27 {
-    color: #ffffff;
     font-style: normal;
   }
   .landing-page-text28 {
-    color: #ffffff;
     font-style: normal;
   }
   .landing-page-text29 {
-    color: #ffffff;
     font-style: normal;
   }
   .landing-page-text30 {

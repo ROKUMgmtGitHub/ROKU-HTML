@@ -367,6 +367,43 @@
   text-align: center;
   font-weight: 100;
 }
+.landing-page-banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url('https://i.imgur.com/i4Awqef.jpg');
+  background-position: center;
+}
+.landing-page-text42 {
+  color: #FFFFFF;
+  font-size: 32px;
+  margin-top: 15%;
+  text-align: center;
+}
+.landing-page-text43 {
+  color: #FFFFFF;
+  max-width: var(--dl-size-size-maxwidth);
+  text-align: center;
+  margin-bottom: 5%;
+}
+.landing-page-button3 {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: 10%;
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.landing-page-button3:hover {
+  transform: scale(1.02);
+}
 @media(max-width: 1600px) {
   .landing-page-container1 {
     width: 1100;
@@ -459,6 +496,9 @@
     margin-top: var(--dl-space-space-halfunit);
     margin-left: 0px;
   }
+  .landing-page-text43 {
+    width: 100%;
+  }
 }
 @media(max-width: 767px) {
   .landing-page-header {
@@ -503,6 +543,14 @@
   }
   .landing-page-container6 {
     flex-direction: column;
+  }
+  .landing-page-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .landing-page-text43 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
@@ -679,5 +727,30 @@
   }
   .landing-page-text41 {
     font-style: normal;
+  }
+  .landing-page-banner {
+    height: 375px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .landing-page-text42 {
+    font-style: normal;
+    font-weight: 400;
+  }
+  .landing-page-text43 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+  }
+  .landing-page-button3 {
+    color: #0f0f0f;
+    font-style: normal;
+    font-weight: 700;
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: rgb(254, 191, 164);
   }
 }

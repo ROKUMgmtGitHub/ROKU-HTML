@@ -3,7 +3,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import NavigationLinks from '../components/navigation-links'
-import FeatureCard4 from '../components/feature-card4'
 import './landing-page.css'
 
 const LandingPage = (props) => {
@@ -112,25 +111,24 @@ const LandingPage = (props) => {
           className="landing-page-image3"
         />
         <div className="landing-page-container5">
-          <h1 className="landing-page-text09">THIS IS TEXT</h1>
+          <h1 className="landing-page-text09">
+            ROKU MANAGEMENT MAKES CONTENT CREATION LUCRATIVE
+          </h1>
           <span className="landing-page-text10">
-            <span>THIS IS SUB TEXT</span>
-            <br></br>
-            <br></br>
-            <span>THIS IS SUB CHILD TEXT</span>
-            <br></br>
-            <span>THIS IS SUB CHILD TEXT</span>
-            <br></br>
-            <span>THIS IS SUB CHILD TEXT</span>
+            <span>
+              OUR TEAM OF HIGHLY SKILLED PROFESSIONALS, COMBINED WITH OUR
+              EFFECTIVE MARKETING STRATEGIES, PROVIDE YOU WITH THE OPPORTUNITY
+              TO UNLEASH YOUR CREATIVITY TO ITS FULLEST POTENTIAL
+            </span>
             <br></br>
           </span>
           <button className="landing-page-button2 button">APPLY NOW</button>
         </div>
       </div>
       <div className="landing-page-features">
-        <h1 className="landing-page-text20">PROMISE</h1>
+        <h1 className="landing-page-text13">THE ROKU PROMISE</h1>
         <div className="landing-page-container6">
-          <span className="landing-page-text21">
+          <span className="landing-page-text14">
             <span>FREEDOM</span>
             <br></br>
           </span>
@@ -139,7 +137,7 @@ const LandingPage = (props) => {
             src="/playground_assets/group%201-500h.png"
             className="landing-page-image4"
           />
-          <span className="landing-page-text24">
+          <span className="landing-page-text17">
             <span>MONEY</span>
             <br></br>
           </span>
@@ -148,7 +146,7 @@ const LandingPage = (props) => {
             src="/playground_assets/group%202-500h.png"
             className="landing-page-image5"
           />
-          <span className="landing-page-text27">
+          <span className="landing-page-text20">
             <span>TIME</span>
             <br></br>
           </span>
@@ -157,9 +155,55 @@ const LandingPage = (props) => {
             src="/playground_assets/group%203-500h.png"
             className="landing-page-image6"
           />
-          <div className="landing-page-container7">
-            <FeatureCard4 rootClassName="rootClassName1"></FeatureCard4>
-          </div>
+          <span className="landing-page-text23">
+            <span className="landing-page-text24">
+              AT ROKU, WE UNDERSTAND THE SIGNIFICANCE OF SELF-EXPRESSION IN OUR
+              DAILY LIVES. AS SOCIAL MEDIA CONTINUES TO EXPAND IN THE MODERN
+              WORLD, WOULDN&apos;T IT BE GREAT TO TURN OUR PASSION INTO A
+              CAREER?
+            </span>
+            <br className="landing-page-text25"></br>
+            <br className="landing-page-text26"></br>
+            <span className="landing-page-text27">
+              ROKU EMBODIES A LIFESTYLE THAT ENCOURAGES EVERYONE TO LIVE LIFE ON
+              THEIR OWN TERMS, PROVIDING OPPORTUNITIES TO DO SO.
+            </span>
+            <br className="landing-page-text28"></br>
+            <br className="landing-page-text29"></br>
+            <span className="landing-page-text30">
+              WE MAKE YOU
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="landing-page-text31">MONEY</span>
+            <span className="landing-page-text32">.</span>
+            <br className="landing-page-text33"></br>
+            <span className="landing-page-text34">
+              YOU CAN NOW USE YOUR
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="landing-page-text35">TIME</span>
+            <span className="landing-page-text36">.</span>
+            <br className="landing-page-text37"></br>
+            <span className="landing-page-text38">
+              TO LIVE LIFE FULL OF
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="landing-page-text39">FREEDOM</span>
+            <span className="landing-page-text40">.</span>
+            <br className="landing-page-text41"></br>
+          </span>
         </div>
       </div>
     </div>

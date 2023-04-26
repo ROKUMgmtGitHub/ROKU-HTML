@@ -199,7 +199,6 @@
   display: flex;
   position: absolute;
   text-align: right;
-  align-items: center;
   flex-direction: column;
 }
 .roku-page-landing-h1 {

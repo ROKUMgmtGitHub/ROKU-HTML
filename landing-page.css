@@ -200,22 +200,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.landing-page-btn-group1 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.landing-page-button1 {
-  color: var(--dl-color-gray-black);
+.landing-page-link {
   transition: 0.3s;
-  border-width: 0px;
-  border-radius: 0px;
-  background-color: #FEBFA4;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.landing-page-button1:hover {
-  color: #0f0f0f;
-  background-color: #fe9060;
+.landing-page-link:hover {
+  transform: scale(1.02);
 }
 .landing-page-image2 {
   width: 45rem;
@@ -286,14 +280,15 @@
   margin-bottom: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-threeunits);
 }
-.landing-page-button2 {
+.landing-page-link1 {
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.landing-page-button2:hover {
+.landing-page-link1:hover {
   transform: scale(1.02);
 }
 .landing-page-banner {
@@ -412,15 +407,16 @@
   text-align: center;
   margin-bottom: 5%;
 }
-.landing-page-button3 {
+.landing-page-link2 {
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
   margin-bottom: 10%;
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.landing-page-button3:hover {
+.landing-page-link2:hover {
   transform: scale(1.02);
 }
 .landing-page-features1 {
@@ -735,10 +731,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .landing-page-button1 {
-    color: var(--dl-color-gray-black);
+  .landing-page-link {
+    color: #0f0f0f;
     font-style: normal;
     font-weight: 700;
+    border-width: 0px;
+    border-radius: 0px;
     background-color: rgb(254, 191, 164);
   }
   .landing-page-text {
@@ -789,7 +787,7 @@
   .landing-page-text010 {
     font-weight: 100;
   }
-  .landing-page-button2 {
+  .landing-page-link1 {
     color: #0f0f0f;
     font-style: normal;
     font-weight: 700;
@@ -914,7 +912,7 @@
     font-family: Inter;
     font-weight: 100;
   }
-  .landing-page-button3 {
+  .landing-page-link2 {
     color: #0f0f0f;
     font-style: normal;
     font-weight: 700;

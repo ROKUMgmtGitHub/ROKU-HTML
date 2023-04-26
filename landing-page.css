@@ -806,7 +806,7 @@
     padding: var(--dl-space-space-unit);
   }
   .landing-page-mobile-menu {
-    display: flex;
+    display: none;
     padding: 16px;
   }
   .landing-page-hero {

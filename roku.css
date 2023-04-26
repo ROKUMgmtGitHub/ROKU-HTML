@@ -1,9 +1,7 @@
 .navigation-links-nav {
   flex: 0 0 auto;
   color: #ffffff;
-  display: flex;
   align-items: center;
-  flex-direction: column;
 }
 .navigation-links-text {
   font-size: 32px;
@@ -60,6 +58,11 @@
   }
 }
 @media(max-width: 479px) {
+  .navigation-links-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
   .navigation-links-root-class-name11 {
     align-self: center;
   }
@@ -91,6 +94,7 @@
 }
 .roku-nav {
   display: flex;
+  flex-direction: row;
 }
 .roku-btn-group {
   display: flex;
@@ -98,9 +102,21 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.roku-login {
+.roku-page-landing-button {
+  color: #0f0f0f;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
   border-width: 0px;
-  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgb(254, 191, 164);
+}
+.roku-page-landing-button:hover {
+  transform: scale(1.02);
 }
 .roku-burger-menu {
   display: none;
@@ -173,7 +189,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.roku-page-landing-button {
+.roku-page-landing-button1 {
   display: none;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -182,7 +198,7 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.roku-page-landing-button:hover {
+.roku-page-landing-button1:hover {
   transform: scale(1.02);
 }
 .roku-page-landing-logo {
@@ -663,6 +679,9 @@
   .roku-page-landing-button {
     display: contents;
   }
+  .roku-page-landing-button1 {
+    display: contents;
+  }
 }
 @media(max-width: 991px) {
   .roku-page-landing {
@@ -827,6 +846,15 @@
   .roku-header {
     padding: var(--dl-space-space-unit);
   }
+  .roku-page-landing-button {
+    color: #0f0f0f;
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: rgb(254, 191, 164);
+  }
   .roku-mobile-menu {
     display: none;
     padding: 16px;
@@ -837,13 +865,14 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .roku-page-landing-button {
-    color: #0f0f0f;
+  .roku-page-landing-button1 {
+    color: rgb(15, 15, 15);
     display: flex;
     font-style: normal;
     font-weight: 700;
     border-width: 0px;
     border-radius: 0px;
+    text-decoration: none;
     background-color: rgb(254, 191, 164);
   }
   .roku-page-landing-logo {

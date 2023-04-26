@@ -90,7 +90,7 @@
   justify-content: space-between;
 }
 .roku-header-logo {
-  height: 4rem;
+  height: 6rem;
 }
 .roku-nav {
   display: flex;
@@ -845,6 +845,9 @@
   }
   .roku-header {
     padding: var(--dl-space-space-unit);
+  }
+  .roku-header-logo {
+    height: 4rem;
   }
   .roku-page-landing-button {
     color: #0f0f0f;

@@ -92,8 +92,8 @@
 }
 .landing-page-icon {
   fill: #FFFFFF;
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  width: 24px;
+  height: 24px;
 }
 .landing-page-mobile-menu {
   top: 0px;

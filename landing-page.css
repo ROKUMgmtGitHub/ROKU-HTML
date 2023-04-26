@@ -473,10 +473,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.landing-page-link3 {
+  display: contents;
+}
 .landing-page-icon10 {
   fill: #FFFFFF;
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .landing-page-hero {

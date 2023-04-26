@@ -444,7 +444,7 @@
   width: 70%;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 .landing-page-text048 {
   color: #FFFFFF;
@@ -469,19 +469,14 @@
   text-align: left;
   margin-bottom: 5%;
 }
-.landing-page-text052 {
-  width: 70%;
-  text-align: left;
-  margin-bottom: 5%;
-}
-.landing-page-text073 {
+.landing-page-text072 {
   color: #FFFFFF;
   width: 70%;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
-.landing-page-text074 {
+.landing-page-text073 {
   color: #FFFFFF;
   width: 90%;
   font-size: 16px;
@@ -489,14 +484,14 @@
   font-weight: 100;
   margin-bottom: 5%;
 }
-.landing-page-text100 {
+.landing-page-text099 {
   color: #FFFFFF;
   width: 70%;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
-.landing-page-text101 {
+.landing-page-text100 {
   color: #FFFFFF;
   width: 90%;
   font-size: 16px;
@@ -518,7 +513,7 @@
   height: 50px;
   object-fit: cover;
 }
-.landing-page-text127 {
+.landing-page-text124 {
   color: #FFFFFF;
 }
 .landing-page-icon-group1 {
@@ -645,9 +640,6 @@
   .landing-page-text047 {
     text-align: center;
   }
-  .landing-page-text048 {
-    text-align: center;
-  }
   .landing-page-text049 {
     text-align: center;
   }
@@ -657,19 +649,10 @@
   .landing-page-text051 {
     text-align: center;
   }
-  .landing-page-text052 {
+  .landing-page-text072 {
     text-align: center;
   }
-  .landing-page-text073 {
-    text-align: center;
-  }
-  .landing-page-text074 {
-    text-align: center;
-  }
-  .landing-page-text100 {
-    text-align: center;
-  }
-  .landing-page-text101 {
+  .landing-page-text099 {
     text-align: center;
   }
 }
@@ -737,7 +720,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .landing-page-text127 {
+  .landing-page-text124 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -975,6 +958,8 @@
   }
   .landing-page-text048 {
     color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 100;
   }
   .landing-page-text049 {
     font-size: 8px;
@@ -984,21 +969,19 @@
     font-style: normal;
     font-weight: 500;
   }
-  .landing-page-text055 {
+  .landing-page-text054 {
     font-size: 8px;
   }
-  .landing-page-text057 {
+  .landing-page-text058 {
+    font-size: 8px;
+  }
+  .landing-page-text059 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
-  }
-  .landing-page-text061 {
-    font-size: 8px;
   }
   .landing-page-text063 {
-    color: #febfa4;
-    font-style: normal;
-    font-weight: 500;
+    font-size: 8px;
   }
   .landing-page-text067 {
     font-size: 8px;
@@ -1008,22 +991,21 @@
     font-style: normal;
     font-weight: 500;
   }
-  .landing-page-text070 {
-    font-style: normal;
-    font-weight: 500;
+  .landing-page-text072 {
+    color: rgb(255, 255, 255);
   }
   .landing-page-text073 {
     color: rgb(255, 255, 255);
   }
   .landing-page-text074 {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 100;
-  }
-  .landing-page-text075 {
     font-size: 8px;
   }
-  .landing-page-text077 {
+  .landing-page-text076 {
+    color: #febfa4;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .landing-page-text078 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
@@ -1047,45 +1029,47 @@
   .landing-page-text095 {
     font-size: 8px;
   }
-  .landing-page-text098 {
+  .landing-page-text097 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
+  }
+  .landing-page-text099 {
+    color: rgb(255, 255, 255);
   }
   .landing-page-text100 {
     color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 100;
   }
   .landing-page-text101 {
-    color: rgb(255, 255, 255);
-  }
-  .landing-page-text102 {
     font-size: 8px;
   }
-  .landing-page-text104 {
+  .landing-page-text103 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
   }
-  .landing-page-text108 {
+  .landing-page-text107 {
     font-size: 8px;
   }
-  .landing-page-text111 {
+  .landing-page-text109 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
   }
-  .landing-page-text115 {
+  .landing-page-text114 {
     font-size: 8px;
   }
-  .landing-page-text118 {
-    color: #febfa4;
-    font-style: normal;
-    font-weight: 500;
+  .landing-page-text119 {
+    font-size: 8px;
   }
   .landing-page-text122 {
-    font-size: 8px;
+    color: #febfa4;
+    font-style: normal;
+    font-weight: 500;
   }
-  .landing-page-text125 {
+  .landing-page-text123 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
@@ -1097,7 +1081,7 @@
   .landing-page-image8 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .landing-page-text127 {
+  .landing-page-text124 {
     color: rgb(255, 255, 255);
     font-size: 12px;
     font-style: normal;

@@ -5,9 +5,9 @@
 }
 .navigation-links-text {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
+  font-weight: 100;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .navigation-links-text:hover {
@@ -15,10 +15,10 @@
 }
 .navigation-links-text1 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-twounits);
+  font-weight: 100;
+  margin-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .navigation-links-text1:hover {
@@ -26,10 +26,10 @@
 }
 .navigation-links-text2 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-twounits);
+  font-weight: 100;
+  margin-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .navigation-links-text2:hover {
@@ -37,10 +37,10 @@
 }
 .navigation-links-text3 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-twounits);
+  font-weight: 100;
+  margin-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .navigation-links-text3:hover {
@@ -48,10 +48,10 @@
 }
 .navigation-links-link {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-twounits);
+  font-weight: 100;
+  margin-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
 }
@@ -87,6 +87,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .navigation-links-text {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navigation-links-text1 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navigation-links-text2 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navigation-links-text3 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navigation-links-link {
+    font-size: 32px;
+    font-weight: 300;
   }
   .navigation-links-root-class-name11 {
     align-self: center;

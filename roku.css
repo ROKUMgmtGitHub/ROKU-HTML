@@ -5,9 +5,9 @@
 }
 .navigation-links-text {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
+  font-weight: 100;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .navigation-links-text:hover {
@@ -15,10 +15,10 @@
 }
 .navigation-links-text1 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-twounits);
+  font-weight: 100;
+  margin-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .navigation-links-text1:hover {
@@ -26,10 +26,10 @@
 }
 .navigation-links-text2 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-twounits);
+  font-weight: 100;
+  margin-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .navigation-links-text2:hover {
@@ -37,10 +37,10 @@
 }
 .navigation-links-text3 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-twounits);
+  font-weight: 100;
+  margin-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .navigation-links-text3:hover {
@@ -48,10 +48,10 @@
 }
 .navigation-links-link {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.3s;
-  font-weight: 300;
-  margin-left: var(--dl-space-space-twounits);
+  font-weight: 100;
+  margin-left: var(--dl-space-space-fourunits);
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
 }
@@ -87,6 +87,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .navigation-links-text {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navigation-links-text1 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navigation-links-text2 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navigation-links-text3 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .navigation-links-link {
+    font-size: 32px;
+    font-weight: 300;
   }
   .navigation-links-root-class-name11 {
     align-self: center;
@@ -243,25 +263,25 @@
   flex-direction: column;
 }
 .roku-page-landing-h1 {
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
 .roku-page-landing-h2 {
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-unit);
 }
 .roku-page-landing-h3 {
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-unit);
 }
 .roku-page-landing-h4 {
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-unit);
@@ -270,14 +290,26 @@
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
+  position: relative;
   min-height: 80vh;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
+.roku-bg-roku {
+  top: -189px;
+  right: -90px;
+  width: 826px;
+  height: 570px;
+  opacity: 0.01;
+  position: absolute;
+  transform: rotate(15deg);
+  object-fit: cover;
+}
 .roku-page-journey-title {
   color: #FFFFFF;
   display: flex;
+  z-index: 1;
   align-items: center;
   flex-direction: column;
 }
@@ -291,31 +323,41 @@
 }
 .roku-page-journey-image {
   width: 20%;
+  margin-top: 2%;
+  margin-right: 25%;
   margin-bottom: var(--dl-space-space-twounits);
 }
 .roku-page-journey-text {
+  left: 975px;
   color: #FFFFFF;
+  width: 30%;
+  bottom: 173px;
   display: flex;
+  position: absolute;
   align-items: center;
   flex-direction: column;
 }
 .roku-page-journey-h1 {
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 500;
 }
 .roku-page-journey-h2 {
   margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  padding-left: var(--dl-space-space-threeunits);
+  font-weight: 100;
   margin-bottom: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-threeunits);
 }
 .roku-page-journey-button {
+  color: #0f0f0f;
   transition: 0.3s;
+  font-weight: 700;
   padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  margin-right: 65%;
   padding-left: var(--dl-space-space-twounits);
+  border-radius: 0px;
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
+  background-color: #febfa4;
 }
 .roku-page-journey-button:hover {
   transform: scale(1.02);
@@ -914,21 +956,25 @@
     position: static;
   }
   .roku-page-landing-h1 {
+    width: 100%;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
   }
   .roku-page-landing-h2 {
+    width: 100%;
     font-size: 17px;
     font-style: normal;
     font-weight: 100;
   }
   .roku-page-landing-h3 {
+    width: 100%;
     font-size: 17px;
     font-style: normal;
     font-weight: 100;
   }
   .roku-page-landing-h4 {
+    width: 100%;
     font-size: 17px;
     font-style: normal;
     font-weight: 100;
@@ -949,8 +995,13 @@
   }
   .roku-page-journey-image {
     width: 40%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: var(--dl-space-space-twounits);
   }
   .roku-page-journey-text {
+    width: 100%;
+    position: static;
     margin-bottom: var(--dl-space-space-unit);
   }
   .roku-page-journey-h1 {
@@ -959,13 +1010,17 @@
     font-weight: 500;
   }
   .roku-page-journey-h2 {
+    text-align: center;
     font-weight: 100;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
   }
   .roku-page-journey-button {
     color: #0f0f0f;
     font-style: normal;
     font-weight: 700;
     border-width: 0px;
+    margin-right: 0%;
     border-radius: 0px;
     background-color: rgb(254, 191, 164);
   }

@@ -363,6 +363,18 @@
   transform: scale(1.02);
   background-color: #FE9060;
 }
+.roku-link {
+  display: contents;
+}
+.roku-icon10 {
+  fill: #FFFFFF;
+  left: 215px;
+  width: 45px;
+  bottom: 4px;
+  height: 45px;
+  position: absolute;
+  text-decoration: none;
+}
 .roku-divider-first {
   width: 100%;
   display: flex;
@@ -742,7 +754,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.roku-link {
+.roku-link1 {
   display: contents;
 }
 .roku-footer-instagram {
@@ -1012,7 +1024,6 @@
     width: 40%;
     margin-top: 0%;
     margin-right: 0%;
-    margin-bottom: var(--dl-space-space-twounits);
   }
   .roku-page-journey-text {
     width: 100%;
@@ -1038,6 +1049,9 @@
     margin-right: 0%;
     border-radius: 0px;
     background-color: rgb(254, 191, 164);
+  }
+  .roku-icon10 {
+    margin-bottom: 5%;
   }
   .roku-divider-first {
     height: 311px;

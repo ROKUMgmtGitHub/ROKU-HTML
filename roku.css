@@ -985,6 +985,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .roku-bg-roku {
+    top: -124px;
+    right: -168px;
+    width: 478px;
+    height: 352px;
+  }
   .roku-page-journey-title {
     margin-bottom: var(--dl-space-space-unit);
   }

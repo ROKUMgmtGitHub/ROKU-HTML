@@ -5,33 +5,53 @@
 }
 .navigation-links-text {
   font-size: 32px;
+  transition: 0.3s;
   font-weight: 300;
   margin-bottom: var(--dl-space-space-threeunits);
+}
+.navigation-links-text:hover {
+  color: #febfa4;
 }
 .navigation-links-text1 {
   font-size: 32px;
+  transition: 0.3s;
   font-weight: 300;
   margin-left: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-threeunits);
+}
+.navigation-links-text1:hover {
+  color: #febfa4;
 }
 .navigation-links-text2 {
   font-size: 32px;
+  transition: 0.3s;
   font-weight: 300;
   margin-left: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-threeunits);
+}
+.navigation-links-text2:hover {
+  color: #febfa4;
 }
 .navigation-links-text3 {
   font-size: 32px;
+  transition: 0.3s;
   font-weight: 300;
   margin-left: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
+.navigation-links-text3:hover {
+  color: #febfa4;
+}
 .navigation-links-link {
   font-size: 32px;
+  transition: 0.3s;
   font-weight: 300;
   margin-left: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
+}
+.navigation-links-link:hover {
+  color: #febfa4;
 }
 
 
@@ -113,7 +133,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: rgb(254, 191, 164);
+  background-color: #febfa4;
 }
 .roku-page-landing-button:hover {
   transform: scale(1.02);

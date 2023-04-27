@@ -247,41 +247,40 @@
   transform: scale(1.02);
 }
 .roku-page-landing-logo {
-  top: 48px;
-  right: 170px;
+  top: 10px;
+  right: 240px;
   width: 45rem;
   position: absolute;
 }
 .roku-page-landing-text {
   top: 328px;
-  left: 66px;
+  left: 80px;
   color: #FFFFFF;
-  width: 45%;
   display: flex;
   position: absolute;
   text-align: right;
   flex-direction: column;
 }
 .roku-page-landing-h1 {
-  font-size: 40px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
 .roku-page-landing-h2 {
-  font-size: 40px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-unit);
 }
 .roku-page-landing-h3 {
-  font-size: 40px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-unit);
 }
 .roku-page-landing-h4 {
-  font-size: 40px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-unit);

@@ -4,6 +4,7 @@
   align-items: center;
 }
 .navigation-links-text {
+  color: #ffffff;
   font-size: 32px;
   transition: 0.3s;
   font-weight: 300;
@@ -13,6 +14,7 @@
   color: #febfa4;
 }
 .navigation-links-text1 {
+  color: #ffffff;
   font-size: 32px;
   transition: 0.3s;
   font-weight: 300;
@@ -23,6 +25,7 @@
   color: #febfa4;
 }
 .navigation-links-text2 {
+  color: #ffffff;
   font-size: 32px;
   transition: 0.3s;
   font-weight: 300;
@@ -33,6 +36,7 @@
   color: #febfa4;
 }
 .navigation-links-text3 {
+  color: #ffffff;
   font-size: 32px;
   transition: 0.3s;
   font-weight: 300;
@@ -43,6 +47,7 @@
   color: #febfa4;
 }
 .navigation-links-link {
+  color: #ffffff;
   font-size: 32px;
   transition: 0.3s;
   font-weight: 300;

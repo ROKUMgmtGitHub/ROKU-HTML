@@ -162,6 +162,7 @@
 }
 .roku-page-landing-button:hover {
   transform: scale(1.02);
+  background-color: #FE9060;
 }
 .roku-burger-menu {
   display: none;
@@ -360,6 +361,7 @@
 }
 .roku-page-journey-button:hover {
   transform: scale(1.02);
+  background-color: #FE9060;
 }
 .roku-divider-first {
   width: 100%;

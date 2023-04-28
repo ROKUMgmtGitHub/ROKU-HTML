@@ -406,6 +406,7 @@
   justify-content: space-between;
   background-image: url('https://i.imgur.com/i4Awqef.jpg');
   background-position: center;
+  background-attachment: fixed;
 }
 .roku-divider-first-image {
   width: 65%;
@@ -580,6 +581,7 @@
   display: flex;
   align-items: center;
   padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: 2%;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   background-size: cover;
@@ -846,25 +848,32 @@
 .roku-page-services-a13 {
   margin-right: 1%;
 }
-.roku-container2 {
+.roku-page-services-main {
   width: 100%;
-  height: 411px;
+  height: 525px;
   display: flex;
+  position: relative;
   align-items: flex-start;
   padding-top: 3%;
 }
 .roku-page-services-title1 {
+  top: 0px;
+  left: 810px;
   color: #FFFFFF;
-  font-size: 3rem;
+  position: absolute;
+  font-size: 85px;
+  font-weight: 300;
   background-image: linear-gradient(90deg, rgb(254, 144, 96) 0.00%,rgb(242, 164, 130) 19.00%,rgb(254, 191, 164) 39.00%,rgb(254, 191, 164) 60.00%,rgb(242, 164, 130) 81.00%,rgb(254, 144, 96) 100.00%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.roku-container3 {
+.roku-page-services-am {
   flex: 0 0 auto;
   width: 25%;
   display: flex;
+  margin-top: 4%;
   align-items: flex-start;
+  margin-left: 12.7%;
   margin-right: 5%;
   flex-direction: column;
 }
@@ -946,16 +955,22 @@
 .roku-page-services-a51 {
   margin-right: 1%;
 }
-.roku-image3 {
+.roku-page-services-left-divider {
+  top: 220px;
+  left: -410px;
+  right: 0px;
   width: 15%;
-  display: none;
+  margin: auto;
+  opacity: 0.25;
+  position: absolute;
   transform: rotate(90deg);
   object-fit: cover;
 }
-.roku-container4 {
+.roku-page-services-aa {
   flex: 0 0 auto;
   width: 25%;
   display: flex;
+  margin-top: 4%;
   align-items: flex-start;
   margin-right: 5%;
   flex-direction: column;
@@ -1021,10 +1036,20 @@
 .roku-page-services-a91 {
   margin-right: 1%;
 }
-.roku-container5 {
+.roku-page-services-right-divider {
+  top: 220px;
+  left: 1175px;
+  width: 15%;
+  opacity: 0.25;
+  position: absolute;
+  transform: rotate(90deg);
+  object-fit: cover;
+}
+.roku-page-services-ag {
   flex: 0 0 auto;
   width: 25%;
   display: flex;
+  margin-top: 4%;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -1820,7 +1845,7 @@
     font-style: normal;
     font-weight: 500;
   }
-  .roku-container2 {
+  .roku-page-services-main {
     display: none;
     align-items: flex-start;
   }
@@ -1867,7 +1892,7 @@
     font-style: normal;
     font-weight: 500;
   }
-  .roku-image3 {
+  .roku-page-services-left-divider {
     width: 150px;
     height: 12px;
     margin-bottom: 5%;
@@ -1898,6 +1923,11 @@
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
+  }
+  .roku-page-services-right-divider {
+    width: 150px;
+    height: 12px;
+    margin-bottom: 5%;
   }
   .roku-page-services-st31 {
     color: rgb(255, 255, 255);

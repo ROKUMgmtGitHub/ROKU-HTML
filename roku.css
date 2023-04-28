@@ -396,6 +396,7 @@
 }
 .roku-divider-first {
   width: 100%;
+  height: 400;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-fourunits);
@@ -409,7 +410,8 @@
   background-position: center;
 }
 .roku-divider-first-image {
-  width: 100%;
+  width: 65%;
+  height: 100%;
   object-fit: cover;
 }
 .roku-page-promise {
@@ -1110,6 +1112,9 @@
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .roku-divider-first-image {
+    width: 100%;
   }
   .roku-page-promise {
     height: 883px;

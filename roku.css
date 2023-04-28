@@ -1473,7 +1473,6 @@
   .roku-page-journey-text {
     width: 100%;
     position: static;
-    margin-left: 0%;
     margin-bottom: var(--dl-space-space-unit);
   }
   .roku-page-journey-h1 {

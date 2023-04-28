@@ -399,11 +399,9 @@
   height: 400;
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-fourunits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fourunits);
   background-size: cover;
   justify-content: space-between;
   background-image: url('https://i.imgur.com/i4Awqef.jpg');

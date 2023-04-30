@@ -1095,6 +1095,7 @@
   top: 220px;
   left: 1125px;
   width: 15%;
+  margin: auto;
   opacity: 0.25;
   position: absolute;
   transform: rotate(90deg);

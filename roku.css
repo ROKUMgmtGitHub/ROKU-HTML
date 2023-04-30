@@ -429,10 +429,8 @@
   width: 907px;
   height: 570px;
   opacity: 0.01;
-  z-index: 1;
   position: absolute;
   transform: rotate(-15deg);
-  object-fit: cover;
 }
 .roku-page-promise-title {
   color: #FFFFFF;
@@ -1455,10 +1453,10 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .roku-bg-roku1 {
-    top: -124px;
-    right: -168px;
-    width: 478px;
-    height: 352px;
+    top: -170px;
+    left: -4px;
+    width: 431px;
+    height: 447px;
   }
   .roku-page-journey-title {
     margin-bottom: var(--dl-space-space-unit);
@@ -1541,8 +1539,9 @@
   .roku-bg-roku11 {
     top: 2258px;
     left: 24px;
-    width: 478px;
-    height: 352px;
+    right: -40px;
+    width: 397px;
+    height: 441px;
   }
   .roku-page-promise-title {
     color: rgb(255, 255, 255);

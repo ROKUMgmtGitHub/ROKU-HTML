@@ -560,7 +560,7 @@
 }
 .roku-page-promise-text3 {
   color: rgb(255, 255, 255);
-  bottom: -330px;
+  bottom: -350px;
   position: absolute;
   font-size: 24px;
   text-align: center;
@@ -909,6 +909,11 @@
 .roku-page-services-a11 {
   margin-right: 1%;
 }
+.roku-text098 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
+}
 .roku-page-services-h21 {
   flex: 0 0 auto;
   color: #ffffff;
@@ -935,6 +940,11 @@
 .roku-page-services-a31 {
   margin-right: 1%;
 }
+.roku-text102 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
+}
 .roku-page-services-h41 {
   flex: 0 0 auto;
   color: #ffffff;
@@ -960,6 +970,11 @@
 }
 .roku-page-services-a51 {
   margin-right: 1%;
+}
+.roku-text108 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
 }
 .roku-page-services-left-divider {
   top: 220px;
@@ -1007,6 +1022,11 @@
 .roku-page-services-a61 {
   margin-right: 1%;
 }
+.roku-text111 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
+}
 .roku-page-services-h71 {
   flex: 0 0 auto;
   color: #ffffff;
@@ -1019,6 +1039,11 @@
 }
 .roku-page-services-a71 {
   margin-right: 1%;
+}
+.roku-text113 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
 }
 .roku-page-services-h81 {
   flex: 0 0 auto;
@@ -1033,6 +1058,16 @@
 .roku-page-services-a81 {
   margin-right: 1%;
 }
+.roku-text117 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
+}
+.roku-text118 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
+}
 .roku-page-services-h91 {
   flex: 0 0 auto;
   color: #ffffff;
@@ -1045,6 +1080,16 @@
 }
 .roku-page-services-a91 {
   margin-right: 1%;
+}
+.roku-text121 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
+}
+.roku-text122 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
 }
 .roku-page-services-right-divider {
   top: 220px;
@@ -1088,6 +1133,11 @@
 .roku-page-services-a101 {
   margin-right: 1%;
 }
+.roku-text126 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
+}
 .roku-page-services-h111 {
   flex: 0 0 auto;
   color: #ffffff;
@@ -1100,6 +1150,11 @@
 }
 .roku-page-services-a111 {
   margin-right: 1%;
+}
+.roku-text129 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
 }
 .roku-page-services-h121 {
   flex: 0 0 auto;
@@ -1126,6 +1181,11 @@
 }
 .roku-page-services-a131 {
   margin-right: 1%;
+}
+.roku-text135 {
+  color: #febfa4;
+  font-style: normal;
+  font-weight: 500;
 }
 .roku-footer {
   width: 100%;
@@ -1833,7 +1893,17 @@
     font-style: normal;
     font-weight: 500;
   }
-  .roku-text078 {
+  .roku-text076 {
+    color: #febfa4;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .roku-text079 {
+    color: #febfa4;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .roku-text080 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
@@ -1850,17 +1920,17 @@
   .roku-page-services-text3 {
     width: 100%;
   }
-  .roku-text082 {
+  .roku-text084 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
   }
-  .roku-text085 {
+  .roku-text087 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
   }
-  .roku-text091 {
+  .roku-text093 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
@@ -1885,7 +1955,7 @@
   .roku-page-services-h11 {
     font-size: 16px;
   }
-  .roku-text096 {
+  .roku-text098 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
@@ -1896,7 +1966,7 @@
   .roku-page-services-h31 {
     font-size: 16px;
   }
-  .roku-text100 {
+  .roku-text102 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
@@ -1907,7 +1977,7 @@
   .roku-page-services-h51 {
     font-size: 16px;
   }
-  .roku-text106 {
+  .roku-text108 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
@@ -1924,22 +1994,22 @@
   .roku-page-services-text21 {
     width: 100%;
   }
-  .roku-text109 {
-    color: #febfa4;
-    font-style: normal;
-    font-weight: 500;
-  }
   .roku-text111 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
   }
-  .roku-text115 {
+  .roku-text113 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
   }
   .roku-text118 {
+    color: #febfa4;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .roku-text121 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
@@ -1956,17 +2026,17 @@
   .roku-page-services-text31 {
     width: 100%;
   }
-  .roku-text122 {
+  .roku-text126 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
   }
-  .roku-text125 {
+  .roku-text129 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
   }
-  .roku-text131 {
+  .roku-text135 {
     color: #febfa4;
     font-style: normal;
     font-weight: 500;

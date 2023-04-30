@@ -879,7 +879,7 @@
   display: flex;
   margin-top: 4%;
   align-items: flex-start;
-  margin-left: 11%;
+  margin-left: 9%;
   margin-right: 5%;
   flex-direction: column;
 }
@@ -978,7 +978,7 @@
 }
 .roku-page-services-left-divider {
   top: 220px;
-  left: -450px;
+  left: -540px;
   right: 0px;
   width: 15%;
   margin: auto;
@@ -1093,7 +1093,7 @@
 }
 .roku-page-services-right-divider {
   top: 220px;
-  left: 1150px;
+  left: 1125px;
   width: 15%;
   opacity: 0.25;
   position: absolute;

@@ -249,14 +249,7 @@
 .roku-page-landing-button1:hover {
   transform: scale(1.02);
 }
-.roku-page-landing-logo {
-  top: 10px;
-  right: 180px;
-  width: 45rem;
-  position: absolute;
-}
 .roku-page-landing-text {
-  top: 328px;
   left: 80px;
   color: #FFFFFF;
   display: flex;
@@ -287,6 +280,12 @@
   font-style: normal;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-unit);
+}
+.roku-page-landing-logo {
+  top: 10px;
+  right: 180px;
+  width: 680px;
+  position: absolute;
 }
 .roku-page-journey {
   width: 100%;
@@ -1233,9 +1232,6 @@
   .roku-page-landing {
     flex-direction: column;
   }
-  .roku-page-landing-logo {
-    width: 80%;
-  }
   .roku-page-landing-text {
     margin-top: 10%;
     align-items: center;
@@ -1252,6 +1248,9 @@
   }
   .roku-page-landing-h4 {
     text-align: center;
+  }
+  .roku-page-landing-logo {
+    width: 80%;
   }
   .roku-page-journey {
     flex-direction: column;
@@ -1475,12 +1474,6 @@
     text-decoration: none;
     background-color: rgb(254, 191, 164);
   }
-  .roku-page-landing-logo {
-    position: static;
-    margin-top: 10%;
-    margin-left: 0%;
-    margin-bottom: 10%;
-  }
   .roku-page-landing-text {
     width: 100%;
     position: static;
@@ -1508,6 +1501,12 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 100;
+  }
+  .roku-page-landing-logo {
+    position: static;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-bottom: 10%;
   }
   .roku-page-journey {
     height: 934px;

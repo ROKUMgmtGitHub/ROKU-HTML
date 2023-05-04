@@ -595,7 +595,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: space-between;
-  background-image: url('https://i.imgur.com/i4Awqef.jpg');
+  background-image: url('https://i.imgur.com/Fu8RvG6.jpg');
   background-position: center;
 }
 .roku-divider-second-title {
@@ -1802,6 +1802,7 @@
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
+    background-image: url('https://i.imgur.com/Z69Ns9H.jpg');
   }
   .roku-divider-second-title {
     color: rgb(255, 255, 255);

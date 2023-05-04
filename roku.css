@@ -1516,10 +1516,10 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .roku-bg-roku1 {
-    top: -90px;
+    top: -60px;
     left: 45px;
-    width: 387px;
-    height: 310px;
+    width: 403px;
+    height: 200px;
   }
   .roku-page-journey-title {
     margin-bottom: var(--dl-space-space-unit);
@@ -1588,6 +1588,9 @@
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
+    background-image: url('https://i.imgur.com/i4Awqef.jpg');
+    background-position: center;
+    background-attachment: fixed;
   }
   .roku-divider-first-image {
     width: 100%;

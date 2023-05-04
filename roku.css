@@ -403,7 +403,7 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   background-size: cover;
-  justify-content: space-between;
+  justify-content: center;
   background-image: url('https://i.imgur.com/i4Awqef.jpg');
   background-position: center;
   background-attachment: fixed;
@@ -1582,7 +1582,7 @@
     margin-bottom: 5%;
   }
   .roku-divider-first {
-    height: 311px;
+    height: 375px;
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-unit);
     margin-bottom: 0px;
@@ -1593,7 +1593,9 @@
     background-attachment: scroll;
   }
   .roku-divider-first-image {
-    width: 100%;
+    width: 460px;
+    height: 50%;
+    padding-right: 0px;
   }
   .roku-page-promise {
     height: 883px;

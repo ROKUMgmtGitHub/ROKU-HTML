@@ -136,8 +136,12 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.roku-link {
+  display: contents;
+}
 .roku-header-logo {
   height: 6rem;
+  text-decoration: none;
 }
 .roku-nav {
   display: flex;
@@ -381,7 +385,7 @@
   transform: scale(1.02);
   background-color: #FE9060;
 }
-.roku-link {
+.roku-link1 {
   display: contents;
 }
 .roku-icon10 {
@@ -416,7 +420,7 @@
 }
 .roku-page-promise {
   width: 100%;
-  height: 774px;
+  height: 1022px;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: var(--dl-size-size-maxwidth);
@@ -559,9 +563,9 @@
 }
 .roku-page-promise-text3 {
   color: rgb(255, 255, 255);
-  bottom: -350px;
+  bottom: -550px;
   position: absolute;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
   font-weight: 100;
 }
@@ -1212,7 +1216,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.roku-link1 {
+.roku-link2 {
   display: contents;
 }
 .roku-footer-instagram {

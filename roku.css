@@ -1233,6 +1233,11 @@
     display: contents;
   }
 }
+@media(max-width: 1200px) {
+  .roku-page-promise-time1 {
+    left: 505px;
+  }
+}
 @media(max-width: 991px) {
   .roku-page-landing {
     flex-direction: column;

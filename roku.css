@@ -1232,6 +1232,14 @@
   .roku-page-landing-button1 {
     display: contents;
   }
+  .roku-page-promise-time1 {
+    left: 605px;
+  }
+}
+@media(max-width: 1200px) {
+  .roku-page-promise-time1 {
+    left: 45.7%;
+  }
 }
 @media(max-width: 991px) {
   .roku-page-landing {

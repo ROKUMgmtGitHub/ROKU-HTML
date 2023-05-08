@@ -864,6 +864,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.roku-page-services-left-divider {
+  top: 220px;
+  left: -540px;
+  right: 0px;
+  width: 15%;
+  margin: auto;
+  opacity: 0.25;
+  position: absolute;
+  transform: rotate(90deg);
+  object-fit: cover;
+}
 .roku-page-services-am {
   flex: 0 0 auto;
   width: 25%;
@@ -966,17 +977,6 @@
   color: #febfa4;
   font-style: normal;
   font-weight: 500;
-}
-.roku-page-services-left-divider {
-  top: 220px;
-  left: -540px;
-  right: 0px;
-  width: 15%;
-  margin: auto;
-  opacity: 0.25;
-  position: absolute;
-  transform: rotate(90deg);
-  object-fit: cover;
 }
 .roku-page-services-aa {
   flex: 0 0 auto;
@@ -1216,6 +1216,50 @@
 @media(max-width: 1600px) {
   .roku-page-landing-button1 {
     display: contents;
+  }
+  .roku-page-landing-text {
+    left: 120px;
+  }
+  .roku-page-landing-h1 {
+    font-size: 30px;
+  }
+  .roku-page-landing-h2 {
+    font-size: 28px;
+  }
+  .roku-page-landing-h3 {
+    font-size: 28px;
+  }
+  .roku-page-landing-h4 {
+    font-size: 28px;
+  }
+  .roku-page-landing-logo {
+    top: 10px;
+    left: 800px;
+    width: 40%;
+  }
+  .roku-page-journey-image {
+    width: 30%;
+  }
+  .roku-page-journey-text {
+    top: 360px;
+    left: 850px;
+  }
+  .roku-page-services-title1 {
+    left: 37%;
+  }
+  .roku-page-services-left-divider {
+    left: -400px;
+  }
+  .roku-page-services-am {
+    width: 465px;
+    margin-left: 6%;
+  }
+  .roku-page-services-st11 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+  }
+  .roku-page-services-right-divider {
+    left: 960px;
   }
 }
 @media(max-width: 1200px) {
@@ -1978,6 +2022,11 @@
     font-weight: 400;
     background-image: linear-gradient(90deg, rgb(254, 144, 96) 0%, rgb(242, 164, 130) 19%, rgb(254, 191, 164) 39%, rgb(254, 191, 164) 60%, rgb(242, 164, 130) 81%, rgb(254, 144, 96) 100%);
   }
+  .roku-page-services-left-divider {
+    width: 150px;
+    height: 12px;
+    margin-bottom: 5%;
+  }
   .roku-page-services-st11 {
     font-size: 20px;
   }
@@ -2013,11 +2062,6 @@
     color: #febfa4;
     font-style: normal;
     font-weight: 500;
-  }
-  .roku-page-services-left-divider {
-    width: 150px;
-    height: 12px;
-    margin-bottom: 5%;
   }
   .roku-page-services-st21 {
     color: rgb(255, 255, 255);

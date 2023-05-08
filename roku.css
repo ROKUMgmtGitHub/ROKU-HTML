@@ -1452,7 +1452,7 @@
     background-color: rgb(254, 191, 164);
   }
   .roku-mobile-menu {
-    display: flex;
+    display: none;
     padding: 16px;
   }
   .roku-page-landing {

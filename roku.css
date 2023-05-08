@@ -1557,8 +1557,10 @@
   }
   .roku-page-journey-text {
     width: 100%;
+    height: 411px;
     position: static;
     margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .roku-page-journey-h1 {
     font-size: 26px;
@@ -1589,8 +1591,7 @@
     background-color: rgb(254, 191, 164);
   }
   .roku-icon10 {
-    top: 1760px;
-    position: fixed;
+    bottom: 30px;
   }
   .roku-divider-first {
     height: 375px;

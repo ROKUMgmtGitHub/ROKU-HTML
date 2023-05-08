@@ -1214,16 +1214,52 @@
   text-decoration: none;
 }
 @media(max-width: 1600px) {
-  .roku-page-landing-button {
-    display: contents;
-  }
   .roku-page-landing-button1 {
     display: contents;
   }
 }
 @media(max-width: 1200px) {
+  .roku-page-landing-button {
+    display: flex;
+  }
+  .roku-page-landing-text {
+    left: 80px;
+  }
+  .roku-page-landing-h1 {
+    font-size: 24px;
+  }
+  .roku-page-landing-h2 {
+    font-size: 20px;
+  }
+  .roku-page-landing-h3 {
+    font-size: 20px;
+  }
+  .roku-page-landing-h4 {
+    font-size: 20px;
+  }
+  .roku-page-landing-logo {
+    top: 110px;
+    left: 620px;
+    width: 40%;
+  }
+  .roku-page-journey-image {
+    width: 35%;
+    margin-right: 45%;
+  }
+  .roku-page-journey-text {
+    top: 390px;
+    left: 580px;
+  }
   .roku-page-promise-time1 {
     left: 505px;
+  }
+  .roku-page-services-left-divider {
+    top: 260px;
+    left: -340px;
+  }
+  .roku-page-services-right-divider {
+    top: 260px;
+    left: 700px;
   }
 }
 @media(max-width: 991px) {
@@ -1247,9 +1283,6 @@
   .roku-page-landing-h4 {
     text-align: center;
   }
-  .roku-page-landing-logo {
-    width: 80%;
-  }
   .roku-page-journey {
     flex-direction: column;
   }
@@ -1263,9 +1296,6 @@
   }
   .roku-text003 {
     text-align: center;
-  }
-  .roku-page-journey-image {
-    width: 80%;
   }
   .roku-page-journey-text {
     align-items: center;

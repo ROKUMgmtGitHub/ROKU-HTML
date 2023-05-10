@@ -1353,6 +1353,9 @@
     left: 850px;
     right: 142px;
   }
+  .roku-page-promise {
+    min-height: 0vh;
+  }
   .roku-page-promise-text2 {
     margin-top: 50%;
   }

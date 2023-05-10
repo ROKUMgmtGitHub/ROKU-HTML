@@ -279,6 +279,13 @@
   font-weight: 100;
   margin-bottom: var(--dl-space-space-unit);
 }
+.roku-page-landing-h41 {
+  display: none;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 100;
+  margin-bottom: var(--dl-space-space-unit);
+}
 .roku-page-landing-logo {
   top: 10px;
   right: 230px;
@@ -1336,6 +1343,12 @@
   .roku-page-landing-h4 {
     font-size: 28px;
   }
+  .roku-page-landing-h41 {
+    display: block;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 100;
+  }
   .roku-page-landing-logo {
     top: 10px;
     left: 800px;
@@ -1399,6 +1412,10 @@
   .roku-page-landing-h4 {
     font-size: 20px;
   }
+  .roku-page-landing-h41 {
+    display: none;
+    font-size: 20px;
+  }
   .roku-page-landing-logo {
     top: 110px;
     left: 620px;
@@ -1457,6 +1474,10 @@
     text-align: center;
   }
   .roku-page-landing-h4 {
+    text-align: center;
+  }
+  .roku-page-landing-h41 {
+    display: none;
     text-align: center;
   }
   .roku-page-journey {
@@ -1601,6 +1622,9 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .roku-page-landing-h41 {
+    display: none;
+  }
   .roku-page-journey {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -1735,6 +1759,13 @@
   }
   .roku-page-landing-h4 {
     width: 100%;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 100;
+  }
+  .roku-page-landing-h41 {
+    width: 100%;
+    display: none;
     font-size: 17px;
     font-style: normal;
     font-weight: 100;

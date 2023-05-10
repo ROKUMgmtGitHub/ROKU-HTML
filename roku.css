@@ -1383,11 +1383,11 @@
   }
   .roku-page-journey-image {
     width: 35%;
-    margin-right: 45%;
+    margin-left: 10%;
   }
   .roku-page-journey-text {
-    top: 390px;
-    left: 580px;
+    top: 24.5%;
+    margin-left: 45%;
   }
   .roku-page-journey-image1 {
     width: 35%;
@@ -1396,6 +1396,15 @@
   .roku-page-journey-text1 {
     top: 390px;
     left: 580px;
+  }
+  .roku-page-promise {
+    min-height: 100vh;
+  }
+  .roku-page-promise-text1 {
+    margin-top: 65%;
+  }
+  .roku-welcome-to-roku {
+    margin-top: 45%;
   }
   .roku-page-services-left-divider {
     top: 260px;
@@ -1839,7 +1848,7 @@
   .roku-divider-first-image {
     width: 100%;
     height: 50%;
-    object-fit: cover;
+    object-fit: contain;
   }
   .roku-page-promise {
     min-height: 0vh;

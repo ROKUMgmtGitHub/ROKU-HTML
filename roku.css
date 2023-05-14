@@ -954,6 +954,7 @@
   width: 100%;
   display: flex;
   position: relative;
+  min-height: 70vh;
   align-items: flex-start;
   padding-top: 3%;
 }
@@ -969,7 +970,7 @@
   -webkit-text-fill-color: transparent;
 }
 .roku-page-services-left-divider {
-  top: 220px;
+  top: 300px;
   left: -540px;
   right: 0px;
   width: 15%;
@@ -983,7 +984,7 @@
   flex: 0 0 auto;
   width: 25%;
   display: flex;
-  margin-top: 4%;
+  margin-top: 8%;
   align-items: flex-start;
   margin-left: 9%;
   margin-right: 5%;
@@ -1086,7 +1087,7 @@
   flex: 0 0 auto;
   width: 25%;
   display: flex;
-  margin-top: 4%;
+  margin-top: 8%;
   align-items: flex-start;
   margin-right: 5%;
   flex-direction: column;
@@ -1187,7 +1188,7 @@
   font-weight: 500;
 }
 .roku-page-services-right-divider {
-  top: 220px;
+  top: 300px;
   left: 1125px;
   right: 500px;
   width: 15%;
@@ -1201,7 +1202,7 @@
   flex: 0 0 auto;
   width: 25%;
   display: flex;
-  margin-top: 4%;
+  margin-top: 8%;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -1344,6 +1345,9 @@
   .roku-page-journey-image {
     width: 30%;
     margin-left: 20%;
+  }
+  .roku-page-journey-text {
+    margin-top: 7%;
   }
   .roku-page-journey-image1 {
     width: 30%;

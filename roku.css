@@ -339,7 +339,7 @@
   width: 551px;
   display: flex;
   position: absolute;
-  margin-top: 3%;
+  margin-top: 5%;
   align-items: center;
   margin-left: 50%;
   flex-direction: column;
@@ -1337,6 +1337,9 @@
     top: 10px;
     left: 800px;
     width: 40%;
+  }
+  .roku-page-journey {
+    min-height: 100vh;
   }
   .roku-page-journey-image {
     width: 30%;

@@ -54,23 +54,13 @@
   </head>
   <body>
     <div>
+      <link href="./roku.css" rel="stylesheet" />
       <script
         type="text/javascript"
         src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
       ></script>
-      <link href="./roku.css" rel="stylesheet" />
 
       <div class="roku-container">
-        <div>
-          <dangerous-html
-            html="<script>
-  setTimeout(() => {
-   new WOW().init();
-  }, 100)
-</script>
-"
-          ></dangerous-html>
-        </div>
         <header data-role="Header" class="roku-header">
           <a href="https://rokumanagement.co.uk" class="roku-link">
             <img
@@ -190,7 +180,7 @@
         </div>
         <div id="pageJourney" class="roku-page-journey">
           <div class="roku-page-journey-title">
-            <h1 class="roku-page-journey-t1 animate__fadeIn wow">
+            <h1 class="roku-page-journey-t1 wow animate__fadeIn">
               <span class="roku-text">YOUR JOURNEY&nbsp;</span>
               <span>STARTS HERE</span>
               <br />
@@ -736,6 +726,16 @@
             </a>
           </div>
         </footer>
+        <div>
+          <dangerous-html
+            html="<script>
+  setTimeout(() => {
+   new WOW().init();
+  }, 100)
+</script>
+"
+          ></dangerous-html>
+        </div>
       </div>
     </div>
     <script

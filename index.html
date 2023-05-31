@@ -11,7 +11,83 @@
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -21,19 +97,18 @@
 
       body {
         font-weight: 400;
-        font-style:normal;
+        font-style: normal;
         text-decoration: none;
         text-transform: none;
         letter-spacing: normal;
         line-height: 1.15;
         color: var(--dl-color-gray-black);
         background-color: var(--dl-color-gray-white);
-
       }
     </style>
     <link
       rel="shortcut icon"
-      href="public/roku main logo [white].png"
+      href="public/playground_assets/roku main logo [white].png"
       type="icon/png"
       sizes="32x32"
     />
@@ -44,28 +119,23 @@
     />
     <!--This is the head section-->
     <!-- <style> ... </style> -->
-
-    <link
-      href=" https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./animate.css" />
     <link rel="stylesheet" href="./style.css" />
-    <script src=" https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </head>
   <body>
     <div>
       <link href="./roku.css" rel="stylesheet" />
-      <script
-        type="text/javascript"
-        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
-      ></script>
 
       <div class="roku-container">
         <header data-role="Header" class="roku-header">
           <a href="https://rokumanagement.co.uk" class="roku-link">
             <img
               alt="logo"
-              src="public/new%20website%20logo%20%5B912x748%5D-1500h.png"
+              src="public/playground_assets/new%20website%20logo%20%5B912x748%5D-1500h.png"
               class="roku-header-logo"
             />
           </a>
@@ -113,7 +183,7 @@
               <div class="roku-container1">
                 <img
                   alt="image"
-                  src="public/new%20website%20logo%20%5B912x748%5D-1500h.png"
+                  src="public/playground_assets/new%20website%20logo%20%5B912x748%5D-1500h.png"
                   class="roku-image"
                 />
                 <div data-role="CloseMobileMenu" class="roku-menu-close">
@@ -149,7 +219,10 @@
             </div>
           </div>
         </header>
-        <div id="pageLanding" class="roku-page-landing animate__fadeIn">
+        <div
+          id="pageLanding"
+          class="roku-page-landing animate__animated animate__fadeIn animate__slower"
+        >
           <a
             href="https://ylb70az2une.typeform.com/to/GEyc9EbO"
             target="_blank"
@@ -174,13 +247,15 @@
           </div>
           <img
             alt="image"
-            src="public/new%20website%20logo%20%5B912x748%5D-1500h.png"
+            src="public/playground_assets/new%20website%20logo%20%5B912x748%5D-1500h.png"
             class="roku-page-landing-logo"
           />
         </div>
         <div id="pageJourney" class="roku-page-journey">
-          <div class="roku-page-journey-title">
-            <h1 class="roku-page-journey-t1 wow animate__fadeIn">
+          <div
+            class="roku-page-journey-title wow animate__animated animate__fadeIn"
+          >
+            <h1 class="roku-page-journey-t1">
               <span class="roku-text">YOUR JOURNEY&nbsp;</span>
               <span>STARTS HERE</span>
               <br />
@@ -195,10 +270,12 @@
           <div class="roku-page-journey-desktop">
             <img
               alt="image"
-              src="public/journeyimage-1500h.jpg"
-              class="roku-page-journey-image"
+              src="public/playground_assets/journeyimage-1500h.jpg"
+              class="roku-page-journey-image wow animate__animated animate__fadeIn"
             />
-            <div class="roku-page-journey-text">
+            <div
+              class="roku-page-journey-text wow animate__animated animate__fadeIn"
+            >
               <h1 class="roku-page-journey-h1">
                 ROKU MANAGEMENT MAKES CONTENT CREATION LUCRATIVE
               </h1>
@@ -243,14 +320,18 @@
           <div class="roku-page-journey-mobile">
             <img
               alt="image"
-              src="public/journeyimage-1500h.jpg"
-              class="roku-page-journey-image1"
+              src="public/playground_assets/journeyimage-1500h.jpg"
+              class="roku-page-journey-image1 wow animate__animated animate__fadeIn"
             />
             <div class="roku-page-journey-text1">
-              <h1 class="roku-page-journey-h11">
+              <h1
+                class="roku-page-journey-h11 wow animate__animated animate__fadeIn"
+              >
                 ROKU MANAGEMENT MAKES CONTENT CREATION LUCRATIVE
               </h1>
-              <span class="roku-page-journey-h21">
+              <span
+                class="roku-page-journey-h21 wow animate__animated animate__fadeIn"
+              >
                 <span>
                   OUR TEAM OF HIGHLY SKILLED PROFESSIONALS, COMBINED WITH OUR
                   EFFECTIVE MARKETING STRATEGIES, PROVIDE YOU WITH THE
@@ -259,7 +340,9 @@
                 </span>
                 <br />
               </span>
-              <span class="roku-page-journey-h31">
+              <span
+                class="roku-page-journey-h31 wow animate__animated animate__fadeIn"
+              >
                 ROKU IS YOUR TICKET TO A THRIVING ONLYFANS CAREER. WE HELP
                 MODELS LIKE YOU MAXIMIZE THEIR EARNING POTENTIAL AND REACH NEW
                 HEIGHTS OF SUCCESS. WITH OUR PROVEN STRATEGIES AND PERSONALIZED
@@ -270,7 +353,7 @@
                 href="https://ylb70az2une.typeform.com/to/GEyc9EbO"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="roku-page-journey-button1 button"
+                class="roku-page-journey-button1 button wow animate__animated animate__fadeIn"
               >
                 APPLY NOW
               </a>
@@ -292,77 +375,101 @@
         <div class="roku-divider-first">
           <img
             alt="feedback1"
-            src="public/feedback%201-1500w.png"
+            src="public/playground_assets/feedback%201-1500w.png"
             class="roku-divider-first-image"
           />
         </div>
         <div id="pagePromise" class="roku-page-promise">
-          <h1 class="roku-page-promise-title">THE ROKU PROMISE</h1>
+          <h1
+            class="roku-page-promise-title wow animate__animated animate__fadeIn"
+          >
+            THE ROKU PROMISE
+          </h1>
           <div class="roku-page-promise-money-text">
-            <span class="roku-page-promise-money">
+            <span
+              class="roku-page-promise-money wow animate__animated animate__fadeIn"
+            >
               <span>MONEY</span>
               <br />
             </span>
             <img
               alt="image"
-              src="public/circledollar.svg"
-              class="roku-page-promise-money-image"
+              src="public/playground_assets/circledollar.svg"
+              class="roku-page-promise-money-image wow animate__animated animate__fadeIn"
             />
           </div>
           <div class="roku-page-promise-time-text">
-            <span class="roku-page-promise-time">
+            <span
+              class="roku-page-promise-time wow animate__animated animate__fadeIn"
+            >
               <span>TIME</span>
               <br />
             </span>
             <img
               alt="image"
-              src="public/circleclock.svg"
-              class="roku-page-promise-time-image"
+              src="public/playground_assets/circleclock.svg"
+              class="roku-page-promise-time-image wow animate__animated animate__fadeIn"
             />
           </div>
           <div class="roku-page-promise-freedom-text">
-            <span class="roku-page-promise-freedom">
+            <span
+              class="roku-page-promise-freedom wow animate__animated animate__fadeIn"
+            >
               <span>FREEDOM</span>
               <br />
             </span>
             <img
               alt="image"
-              src="public/circleplane.svg"
-              class="roku-page-promise-freedom-image"
+              src="public/playground_assets/circleplane.svg"
+              class="roku-page-promise-freedom-image wow animate__animated animate__fadeIn"
             />
           </div>
           <span class="roku-page-promise-text">
-            <span class="roku-text017">
+            <span class="roku-text017 wow animate__animated animate__fadeIn">
               AT ROKU, WE UNDERSTAND THE SIGNIFICANCE OF SELF-EXPRESSION IN OUR
               DAILY LIVES. AS SOCIAL MEDIA CONTINUES TO EXPAND IN THE MODERN
               WORLD, WOULDN'T IT BE GREAT TO TURN OUR PASSION INTO A CAREER?
             </span>
             <br class="roku-text018" />
             <br class="roku-text019" />
-            <span class="roku-text020">
+            <span class="roku-text020 wow animate__animated animate__fadeIn">
               ROKU EMBODIES A LIFESTYLE THAT ENCOURAGES EVERYONE TO LIVE LIFE ON
               THEIR OWN TERMS, PROVIDING OPPORTUNITIES TO DO SO.
             </span>
             <br class="roku-text021" />
             <br class="roku-text022" />
-            <span class="roku-text023">WE MAKE YOU</span>
-            <span class="roku-text024">MONEY</span>
+            <span class="roku-text023 wow animate__animated animate__fadeIn"
+              >WE MAKE YOU</span
+            >
+            <span class="roku-text024 wow animate__animated animate__fadeIn"
+              >MONEY</span
+            >
             <br class="roku-text025" />
-            <span class="roku-text026">YOU CAN NOW USE YOUR</span>
-            <span class="roku-text027">TIME</span>
+            <span class="roku-text026 wow animate__animated animate__fadeIn"
+              >YOU CAN NOW USE YOUR</span
+            >
+            <span class="roku-text027 wow animate__animated animate__fadeIn"
+              >TIME</span
+            >
             <br class="roku-text028" />
-            <span class="roku-text029">TO LIVE LIFE FULL OF</span>
-            <span class="roku-text030">FREEDOM</span>
+            <span class="roku-text029 wow animate__animated animate__fadeIn"
+              >TO LIVE LIFE FULL OF</span
+            >
+            <span class="roku-text030 wow animate__animated animate__fadeIn"
+              >FREEDOM</span
+            >
             <br class="roku-text031" />
           </span>
           <div class="roku-page-promise-text1">
             <div class="roku-container2">
               <img
                 alt="image"
-                src="public/circledollar.svg"
-                class="roku-page-promise-money-image1"
+                src="public/playground_assets/circledollar.svg"
+                class="roku-page-promise-money-image1 wow animate__animated animate__fadeIn"
               />
-              <span class="roku-page-promise-money1">
+              <span
+                class="roku-page-promise-money1 wow animate__animated animate__fadeIn"
+              >
                 <span>MONEY</span>
                 <br />
               </span>
@@ -370,10 +477,12 @@
             <div class="roku-container3">
               <img
                 alt="image"
-                src="public/circleclock.svg"
-                class="roku-page-promise-time-image1"
+                src="public/playground_assets/circleclock.svg"
+                class="roku-page-promise-time-image1 wow animate__animated animate__fadeIn"
               />
-              <span class="roku-page-promise-time1">
+              <span
+                class="roku-page-promise-time1 wow animate__animated animate__fadeIn"
+              >
                 <span>TIME</span>
                 <br />
               </span>
@@ -381,16 +490,18 @@
             <div class="roku-container4">
               <img
                 alt="image"
-                src="public/circleplane.svg"
-                class="roku-page-promise-freedom-image1"
+                src="public/playground_assets/circleplane.svg"
+                class="roku-page-promise-freedom-image1 wow animate__animated animate__fadeIn"
               />
-              <span class="roku-page-promise-freedom1">
+              <span
+                class="roku-page-promise-freedom1 wow animate__animated animate__fadeIn"
+              >
                 <span>FREEDOM</span>
                 <br />
               </span>
             </div>
             <span class="roku-page-promise-text2">
-              <span class="roku-text038">
+              <span class="roku-text038 wow animate__animated animate__fadeIn">
                 AT ROKU, WE UNDERSTAND THE SIGNIFICANCE OF SELF-EXPRESSION IN
                 OUR DAILY LIVES. AS SOCIAL MEDIA CONTINUES TO EXPAND IN THE
                 MODERN WORLD, WOULDN'T IT BE GREAT TO TURN OUR PASSION INTO A
@@ -398,26 +509,38 @@
               </span>
               <br class="roku-text039" />
               <br class="roku-text040" />
-              <span class="roku-text041">
+              <span class="roku-text041 wow animate__animated animate__fadeIn">
                 ROKU EMBODIES A LIFESTYLE THAT ENCOURAGES EVERYONE TO LIVE LIFE
                 ON THEIR OWN TERMS, PROVIDING OPPORTUNITIES TO DO SO.
               </span>
               <br class="roku-text042" />
               <br class="roku-text043" />
-              <span class="roku-text044">WE MAKE YOU</span>
-              <span class="roku-text045">MONEY</span>
+              <span class="roku-text044 wow animate__animated animate__fadeIn"
+                >WE MAKE YOU</span
+              >
+              <span class="roku-text045 wow animate__animated animate__fadeIn"
+                >MONEY</span
+              >
               <br class="roku-text046" />
-              <span class="roku-text047">YOU CAN NOW USE YOUR</span>
-              <span class="roku-text048">TIME</span>
+              <span class="roku-text047 wow animate__animated animate__fadeIn"
+                >YOU CAN NOW USE YOUR</span
+              >
+              <span class="roku-text048 wow animate__animated animate__fadeIn"
+                >TIME</span
+              >
               <br class="roku-text049" />
-              <span class="roku-text050">TO LIVE LIFE FULL OF</span>
-              <span class="roku-text051">FREEDOM</span>
+              <span class="roku-text050 wow animate__animated animate__fadeIn"
+                >TO LIVE LIFE FULL OF</span
+              >
+              <span class="roku-text051 wow animate__animated animate__fadeIn"
+                >FREEDOM</span
+              >
               <br class="roku-text052" />
             </span>
           </div>
           <img
             alt="image"
-            src="public/welcome%20to%20roku-1500h.png"
+            src="public/playground_assets/welcome%20to%20roku-1500h.png"
             class="roku-welcome-to-roku"
           />
         </div>
@@ -479,7 +602,11 @@
               </span>
             </div>
           </div>
-          <img alt="image" src="public/linebreak.svg" class="roku-image1" />
+          <img
+            alt="image"
+            src="public/playground_assets/linebreak.svg"
+            class="roku-image1"
+          />
           <span class="roku-page-services-st2">ACCOUNT AUDITING</span>
           <div class="roku-page-services-text2">
             <div class="roku-page-services-h6">
@@ -520,7 +647,11 @@
               </span>
             </div>
           </div>
-          <img alt="image" src="public/linebreak.svg" class="roku-image2" />
+          <img
+            alt="image"
+            src="public/playground_assets/linebreak.svg"
+            class="roku-image2"
+          />
           <span class="roku-page-services-st3">ACCOUNT GROWTH</span>
           <div class="roku-page-services-text3">
             <div class="roku-page-services-h10">
@@ -565,7 +696,7 @@
           </h1>
           <img
             alt="image"
-            src="public/linebreak.svg"
+            src="public/playground_assets/linebreak.svg"
             class="roku-page-services-left-divider"
           />
           <div class="roku-page-services-am">
@@ -656,7 +787,7 @@
           </div>
           <img
             alt="image"
-            src="public/linebreak.svg"
+            src="public/playground_assets/linebreak.svg"
             class="roku-page-services-right-divider"
           />
           <div class="roku-page-services-ag">
@@ -702,7 +833,7 @@
         <footer class="roku-footer">
           <img
             alt="logo"
-            src="public/new%20website%20logo%20%5B912x748%5D-1500h.png"
+            src="public/playground_assets/new%20website%20logo%20%5B912x748%5D-1500h.png"
             class="roku-footer-logo"
           />
           <span class="roku-footer-text">
@@ -726,16 +857,6 @@
             </a>
           </div>
         </footer>
-        <div>
-          <dangerous-html
-            html="<script>
-  setTimeout(() => {
-   new WOW().init();
-  }, 100)
-</script>
-"
-          ></dangerous-html>
-        </div>
       </div>
     </div>
     <script

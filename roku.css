@@ -166,13 +166,14 @@
   transition: 0.3s;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-roku-chaulk);
   border-width: 0px;
   padding-left: var(--dl-space-space-twounits);
   border-radius: 0px;
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: var(--dl-color-roku-chaulk);
+  background-color: rgb(254, 191, 164);
 }
 .roku-page-landing-button:hover {
   transform: scale(1.02);
@@ -362,6 +363,7 @@
   transition: 0.3s;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-roku-chaulk);
   border-width: 0px;
   margin-right: 65%;
   padding-left: var(--dl-space-space-twounits);
@@ -656,19 +658,13 @@
   font-weight: 100;
 }
 .roku-text045 {
-  color: #febfa4;
   font-style: normal;
-  font-weight: 500;
 }
 .roku-text048 {
-  color: #febfa4;
   font-style: normal;
-  font-weight: 500;
 }
 .roku-text051 {
-  color: #febfa4;
   font-style: normal;
-  font-weight: 500;
 }
 .roku-welcome-to-roku {
   width: 30%;
@@ -709,6 +705,7 @@
   transition: 0.3s;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-roku-chaulk);
   border-width: 0px;
   padding-left: var(--dl-space-space-twounits);
   border-radius: 0px;
@@ -1189,8 +1186,8 @@
 }
 .roku-page-services-right-divider {
   top: 300px;
-  left: 1080px;
-  right: 900px;
+  left: 1120px;
+  right: 800px;
   width: 15%;
   margin: auto;
   opacity: 0.25;
@@ -1361,7 +1358,25 @@
     min-height: 0vh;
   }
   .roku-page-promise-text2 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
     margin-top: 50%;
+    font-weight: 100;
+  }
+  .roku-text045 {
+    color: #febfa4;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .roku-text048 {
+    color: #febfa4;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .roku-text051 {
+    color: #febfa4;
+    font-style: normal;
+    font-weight: 500;
   }
   .roku-welcome-to-roku {
     margin-top: 32%;

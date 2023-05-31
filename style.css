@@ -69,7 +69,9 @@
   display: flex !important;
   transform: none !important;
 }
-
+.wow {
+  visibility: hidden;
+}
 
 .Content {
   font-size: 16px;
